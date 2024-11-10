@@ -1,0 +1,15 @@
+zone "informatica.ies.test" {
+    type master;
+    file "/etc/bind/db.ies.test.informatica";
+    allow-transfer { 192.168.57.11; };
+
+zone "aulas.ies.test" {
+    type master;
+    file "/etc/bind/db.ies.test.aulas";
+    allow-transfer { 192.168.57.11; };
+};
+
+zone "departamentos.ies.test" {
+    type master;
+    file "/etc/bind/db.ies.test.departamentos";
+};

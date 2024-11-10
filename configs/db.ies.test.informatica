@@ -1,0 +1,15 @@
+$TTL 86400
+@   IN  SOA dnsa.ies.test. root.ies.test. (
+    2024102701 ; Serial
+    3600       ; Refresh
+    1800       ; Retry
+    604800     ; Expire
+    86400 )    ; Minimum TTL
+
+    IN  NS  dnsa.ies.test.
+
+server01       IN  A   192.168.57.10
+pcprofesor     IN  A   192.168.57.20
+pc01           IN  A   192.168.57.21
+pc02           IN  A   192.168.57.22
+pc03           IN  A   192.168.57.23
